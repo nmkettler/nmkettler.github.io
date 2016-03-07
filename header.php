@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Profile</title>
+    <title>Projects</title>
 
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
@@ -32,13 +32,13 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a href="index.php"><img src="css/photos/pcLogoW.png" id="logo"></a>
+            <a class="navbar-brand" href="#">My Portfolio</a>
           </div>
           <div class="collapse navbar-collapse" id="navbar-collapse">
             <ul class="nav navbar-nav navbar-right">
               <li><a href="index.php">Home</a></li>
               <li>
-                <a href="fullpagesurvey.php">Shop Now </a>
+                <a href="fullpagesurvey.php">Contact Me </a>
               </li>
             </ul>
           </div>
@@ -57,7 +57,6 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a href="index.php"><img src="css/photos/pcLogoW.png" class="mobileLogo" id="logo"></a>
           </div>
 
           <!-- Collect the nav links, forms, and other content for toggling -->
@@ -65,7 +64,7 @@
             <ul class="nav navbar-nav navbar-right">
               <li><a href="index.php">Home</a></li>
               <li>
-                <a href="fullpageSurvey.php">Shop Now </a>
+                <a href="fullpageSurvey.php">Contact Me </a>
               </li>
             </ul>
           </div>

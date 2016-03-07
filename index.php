@@ -1,118 +1,62 @@
 <?php include('header.php') ?>
+  <div id="startchange"></div>
+  <div class="header alt vert img-responsive">
+    <img src="css/photos/selfImage.jpg" id="selfImage" />
+    <h2>Welcome!</h2>
+    <p class="myDesc">My name is Noah Kettler and I am currently a Frelance Web Developer. Feel free to check out my site and the projects I have done!</p>
+    <a class="arrow-wrap" href="#content">
+      <span class="arrow"></span>
+      <!--<span class="hint">scroll</span>-->
+    </a>
 
-<div class="header">
-	
-</div>
-	<div class="container">
-	<div class="row">
-      <!--left-->
-      <div class="col-md-3" id="leftCol">
-        <ul class="nav nav-stacked" id="sidebar">
-          <li><a href="#sec0">Section 0</a></li>
-          <li><a href="#sec1">Section 1</a></li>
-          <li><a href="#sec2">Section 2</a></li>
-          <li><a href="#sec3">Section 3</a></li>
-          <li><a href="#sec4">Section 4</a></li>
-        </ul>
-      </div><!--/left-->
-      
-      <!--right-->
-      <div class="col-md-9">
-        <h2 id="sec0">Content</h2>
-        <p>
-          At Bootply we like to build simple Bootstrap templates that utilize the code Bootstap CSS without a lot of customization. Sure you can 
-          find a lot of Bootstrap themes and inspiration, but these templates tend to be heavy on customization.</p>
-        
-        <hr>
-        <p>
-          Rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae 
-          dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia cor magni dolores 
-          eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, 
-          sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. 
-          Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut.              
-          Rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae 
-          dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia cor magni dolores 
-          eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, 
-          sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. 
-          Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut!</p>
-        
-        <h2 id="sec1">Content</h2>
-        <p>
-          Rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae 
-          dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut.
-        </p>
-        <div class="row">
-          <div class="col-md-6">
-            <div class="panel panel-default">
-              <div class="panel-heading"><h3>Hello.</h3></div>
-              <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate. 
-                Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a libero. Aenean sit amet felis 
-                dolor, in sagittis nisi. Sed ac orci quis tortor imperdiet venenatis. Duis elementum auctor accumsan. 
-                Aliquam in felis sit amet augue.
-              </div>
-            </div>
+  </div>
+   
+    <div class="container" id="content">
+      <h1 class="text-center" id="exp">My Experience</h1>
+      <div class="row projectImages">
+        <div class="col-md-6">
+          <figure class="gallery-item">
+            <img src="css/photos/Prep-Car-Image.png">
+             <figcaption class="img-title">
+              <h5>Prep-Car Web App</h5>
+              <p>Prep-Car is a Web App I built for a startup I am currently apart of. I cannot go into too much detail for there is a NDA associated with the content. </p>
+            </figcaption>
+            </figure>
           </div>
           <div class="col-md-6">
-            <div class="panel panel-default">
-              <div class="panel-heading"><h3>Hello.</h3></div>
-              <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate. 
-                Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a libero. Aenean sit amet felis 
-                dolor, in sagittis nisi. Sed ac orci quis tortor imperdiet venenatis. Duis elementum auctor accumsan. 
-                Aliquam in felis sit amet augue.
-              </div>
-            </div>
-          </div>  
+            <figure class="gallery-item">
+            <img src="css/photos/Salmon-Bay-Image.png">
+             <figcaption class="img-title">
+              <h5>Salmon Bay Mirna</h5>
+              <p>This is a site that I built for my marina. I love to sail btw. </p>
+            </figcaption>
+            </figure>     
+            </div>     
         </div>
-        
-        <hr>
-        
-        <h2 id="sec2">Section 2</h2>
-        <p>
-          Rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae 
-          dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia cor magni dolores 
-          eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, 
-          sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. 
-          Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut!
-        </p>
-        <div class="row">
-          <div class="col-md-4"><img src="//placehold.it/300x300" class="img-responsive"></div>
-          <div class="col-md-4"><img src="//placehold.it/300x300" class="img-responsive"></div>
-          <div class="col-md-4"><img src="//placehold.it/300x300" class="img-responsive"></div>
+      <div class="row projectImages">
+        <div class="col-md-6">          
+            <figure class="gallery-item">
+            <img src="css/photos/FSX-Image.png">
+             <figcaption class="img-title">
+              <h5>FSX</h5>
+              <p>This is a site I built for one of my old employees. Long story short, this company builds/refurbishes DPF Filters. </p>
+            </figcaption>
+            </figure>
+          </div>
+          <div class="col-md-6">
+            <figure class="gallery-item">
+            <img src="css/photos/Dealer-Locator-Image.png">
+             <figcaption class="img-title">
+              <h5>GM Dealer Locator</h5>
+              <p>I was having a hard time remembering where all of my accounts were so I whipped this together to easily 
+              access all of my accounts. There is the ability to set up numerous profiles. </p>
+            </figcaption>
+            </figure>    
+          </div>      
         </div>
-        
-        <hr>
-        
-        <h2 id="sec3">Section 3</h2>
-        <p>
-          Images are responsive sed @mdo but sum are more fun peratis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
-          totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae 
-          dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia cor magni dolores 
-          eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, 
-          sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. 
-          Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut..</p>
-        <p>
-          Fos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, 
-          sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. 
-          Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut..</p>
-        
-        
-        <h2 id="sec4">Section 4</h2>
-        <p>
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
-          totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae 
-          dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia cor magni dolores 
-          eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, 
-          sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. 
-          Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut.</p>
-        
-        <hr>
-        <h4><a href="http://www.bootply.com/Gygh9swISB">Edit on Bootply</a></h4>
-        <hr>
-
-        </div><!--/right-->
-  	</div><!--/row-->
-</div><!--/container-->
+      </div>
+      </div>
+    </div><!--/container-->
 
 
-<?php include('footer.php') ?>
-
+  <?php include('footer.php') ?>
