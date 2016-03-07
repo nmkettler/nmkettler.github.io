@@ -3,7 +3,7 @@
   <div class="header alt vert img-responsive">
     <img src="css/photos/selfImage.jpg" id="selfImage" />
     <h2>Welcome!</h2>
-    <p class="myDesc">My name is Noah Kettler and I am currently a Frelance Web Developer. Feel free to check out my site and the projects I have done!</p>
+    <p class="myDesc">My name is Noah Kettler and I am currently a Freelance Web Developer. Feel free to check out my site and the projects I have done!</p>
     <a class="arrow-wrap" href="#content">
       <span class="arrow"></span>
       <!--<span class="hint">scroll</span>-->
@@ -27,7 +27,7 @@
             <figure class="gallery-item">
             <img src="css/photos/Salmon-Bay-Image.png">
              <figcaption class="img-title">
-              <h5>Salmon Bay Mirna</h5>
+              <h5>Salmon Bay Marina</h5>
               <p>This is a site that I built for my marina. I love to sail btw. </p>
             </figcaption>
             </figure>     

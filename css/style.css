@@ -32,6 +32,8 @@ body {
   .navbar-default{
   margin-bottom: 0px;
   border-bottom: none;
+  transition: 0.5s;
+
 }
 
 .navbar-default .navbar-toggle:hover{ 
