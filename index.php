@@ -54,9 +54,37 @@
             </figure>    
           </div>      
         </div>
-      </div>
-      </div>
-    </div><!--/container-->
+      </div><!--/container-->
+        <div class="content-space-one">
+          <div class="container-fluid">
+            <div class="row text-center">
+              <div class="col-md-4">
+              <a href="#"><i class="fa fa-github" id="linkIcon"></i></a>
+              <p>My Github Account</p>                             
+              </div>
+              <div class="col-md-4">
+              <a href="#"><i class="fa fa-file-text-o" id="linkIcon"></i></a>
+              <p>View my resume</p>                               
+              </div>
+              <div class="col-md-4">
+              <a href="#"><i class="fa fa-linkedin" id="linkIcon"></i></a>
+              <p>My LinkedIn Profile</p>                               
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="content-block-one">
+          <h1>This is a content block</h1>
+          <p>Content block</p>
+        </div>
+        <div class="content-space-two">
+          <h1>This separates content</h1>
+          <p>Space content</p>
+        </div>
+        <div class="content-block-one">
+          <h1>This is a content block</h1>
+          <p>Content block</p>
+        </div>
 
 
   <?php include('footer.php') ?>
