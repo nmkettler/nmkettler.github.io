@@ -273,7 +273,8 @@ border-color: #111 transparent transparent transparent;
 }
 
 #exp{
-	font-size: 50px;
+	font-family: 'Oswald', sans-serif;
+	font-size: 70px;
 	padding-top: 1em;
 }
 
@@ -386,20 +387,7 @@ border-color: #111 transparent transparent transparent;
 
 
 
-/*---------------------------------------------Footer------------------------*/
 
-.back-to-top {
-    position: fixed;
-    bottom: 2em;
-    right: 0px;
-    text-decoration: none;
-    color: #000000;
-    background-color: rgba(235, 235, 235, 0.80);
-    font-size: 12px;
-    padding: 1em;
-    display: none;
-    border-radius: 5px;
-}
 
 
 /*---------------------Parralax/Links-------------------*/
@@ -418,6 +406,7 @@ border-color: #111 transparent transparent transparent;
 	margin-bottom: 15px;
 	font-size: 21px;
 	font-weight: 200;
+
 }
 
 @media screen and (min-width: 768px){
@@ -438,7 +427,7 @@ border-color: #111 transparent transparent transparent;
 	padding:0px;
 	margin-bottom: 0px;
 	color: inherit;
-	background: url('..//css/photos/sec1ImageBackgrond.png') no-repeat center center fixed; 
+	background: url('..//css/photos/sunrise.png') no-repeat center center fixed; 
 	-webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -451,7 +440,7 @@ border-color: #111 transparent transparent transparent;
 	padding:0px;
 	margin-bottom: 0px;
 	color: inherit;
-	background: url(http://placehold.it/1200x650/cc0000/ffffff) no-repeat center center fixed;  
+	background: url('..//css/photos/sec2Background.png') no-repeat center center fixed;  
 	-webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -464,6 +453,8 @@ border-color: #111 transparent transparent transparent;
 	margin-bottom: 15px;
 	font-size: 21px;
 	font-weight: 200;
+	color:white;
+
 }
 #linkIcon{
 	font-size: 100px;
@@ -481,4 +472,86 @@ border-color: #111 transparent transparent transparent;
 #linkIcon:hover{
 	color: blue;
 	background-color: rgba(255,255,255,0.7);
+	-webkit-transition: 1s;
+}
+
+/*Leave a comment section */
+
+.form-plat{
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  border:1px solid black;
+  border-radius: 5px;
+  background-color: rgba(0,0,0,0.7);
+}
+
+.formcomment {
+	max-width: 550px;
+	padding: 15px;
+	margin: 0 auto;
+	color: white;
+}
+
+.formcomment .form-control{
+	position: relative;
+	height: auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.formcomment input[type="text"], .formcomment textarea[type="text"]{
+	margin-bottom: -1px;
+	margin-top: 10px;
+	border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    background-color: rgba(128, 128, 128, 0.7);
+    color:white;
+	font-family: 'Alegreya Sans', sans-serif;
+	font-size: 20px;
+	-webkit-transition: .5s;
+}
+
+.formcomment-heading{
+	padding-bottom: 30px;
+}
+#commentBox{
+	height: 100px;
+}
+.submitBox{
+	padding-top: 30px;
+}
+
+#commentSubmit{			/*SubmitButton*/
+	background-color: #ffffff; 
+}
+
+#commentSubmit:hover{			/*SubmitButton*/
+	background-color: rgba(128,128,128,0.7); 
+	color:white;
+	-webkit-transition: .5s;
+}
+
+/*---------------------------------------------Footer------------------------*/
+
+.back-to-top {
+    position: fixed;
+    bottom: 2em;
+    right: 0px;
+    text-decoration: none;
+    color: #000000;
+    background-color: rgba(235, 235, 235, 0.80);
+    font-size: 12px;
+    padding: 1em;
+    display: none;
+    border-radius: 5px;
+}
+
+footer{
+	margin:200 0 0 0;
 }

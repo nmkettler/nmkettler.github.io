@@ -15,9 +15,6 @@
               <a class="btn btn-social-icon btn-facebook" href="masters.mymail@gmail.com">
                 <i class="fa fa-envelope fa-2x"></i>
               </a>
-              <a class="btn btn-social-icon btn-facebook" href="tel:555-555-5555">
-                <i class="fa fa-phone fa-2x"></i>
-              </a>
               <a class="btn btn-social-icon btn-facebook" href="https://plus.google.com/104958944705626065015/posts">
                  <i class="fa fa-google-plus-square fa-2x"></i>
                 </a>
@@ -32,7 +29,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
-          <p class="text-center">© Copyright Prep Cars 2016-
+          <p class="text-center">© Copyright Noah Kettler 2016-
             <?php echo date("Y"); ?>, All Rights Reserved
           </p>
         </div>

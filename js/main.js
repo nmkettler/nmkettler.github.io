@@ -92,8 +92,8 @@ $(document).ready(function(){
 	            }, 100);
 	        });
 
-
 });
+
 
 //Change Nav color on scroll
 
@@ -133,3 +133,23 @@ $(document).ready(function(){
       }
     } 
   });
+
+//Submit Button Action
+
+$(function(){
+  $('#commentSubmit').on("click", function(){
+    alert('Thank you!');
+  });
+});
+
+
+$(function() {
+    $("input:text, #comment").focus(function(){
+        $(this).css({'background-color' : 'rgba(0,0,0,0.7)'});
+    });
+
+    $("input:text, #comment").blur(function(){
+        $(this).css({'background-color' : 'rgba(128,128,128,0.7)'});
+    });
+});
+
