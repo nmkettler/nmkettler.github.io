@@ -182,6 +182,7 @@ background-color:white;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  background-attachment: scroll;
 }
 
 .vert {
@@ -509,6 +510,7 @@ border-color: #111 transparent transparent transparent;
     background-size: cover;
     padding-top: 100px;
     padding-bottom: 100px;
+    background-attachment: scroll;
 }
 
 .content-space-two{
@@ -522,6 +524,7 @@ border-color: #111 transparent transparent transparent;
     background-size: cover;
     padding-top: 100px;
     padding-bottom: 100px;
+    background-attachment: scroll;
 }
 
 .content-space-one p, .content-space-two p{
