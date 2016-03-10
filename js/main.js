@@ -19,7 +19,7 @@ $(window).scroll( function(){
 
 });
 
-$(function(){
+$(function contactScroll(){
   $('#contact').click(function(){
     $('html, body').animate({
       scrollTop: $(".content-space-two").offset().top
@@ -29,7 +29,7 @@ $(function(){
 
 //Back to top scrolling
 
-$(function(){
+$(function backToTop(){
   var offset = 120;
   var duration = 500;
   jQuery(window).scroll(function() {
@@ -53,7 +53,7 @@ $(function(){
 
 //Smooth Scrolling
 
-$(function() {
+$(function smoothScroll() {
   $('a[href*=#]:not([href=#])').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
       var target = $(this.hash);
@@ -69,26 +69,26 @@ $(function() {
 });
 
 //Ham Menu Animation
-$(function(){
+$(function hamMenuAnimation(){
         $(".navbar-toggle").on("click", function () {
             $(this).toggleClass("active");
             $('.mobileLogo').attr('src','css/photos/pcLogo.png');
         });
-    });
 
-//Change color of Ham menu on click
-
-$(function(){
-  $('.navbar-toggle').click(function(){
+      //Change color of Ham menu on click
+    $('.navbar-toggle').click(function(){
     $('.navbar').css('background-color', 'rgba(255,255,255,0.7)');
     $('.navbar-default .navbar-nav li a ').css('color', 'black');
     $(".icon-bar").css('background-color', 'black');                    
   });
-});
+    
+    });
 
 //Project Images hover over effects
-$(document).ready(function(){
-	$('.gallery-item').hover(function(){
+ 
+$(function projectHoverAnimation(){
+	if ($(window).width() > 768) {
+    $('.gallery-item').hover(function(){
 	            $(this).find('h5, p').stop().animate({
 	                opacity: '1',              
 	                marginLeft: '375px',
@@ -99,13 +99,25 @@ $(document).ready(function(){
 	                marginLeft: '0px'
 	            }, 100);
 	        });
-
+    }else if ($(window).width() < 768) {
+       $('.gallery-item').hover(function(){
+              $(this).find('h5, p').stop().animate({
+                  opacity: '1',              
+                  marginLeft: '320px',
+              }, 300);
+          }, function(){
+              $(this).find('h5, p').stop().animate({
+                  opacity: '0',              
+                  marginLeft: '0px'
+              }, 100);
+          });
+    }
 });
 
 
 //Change Nav color on scroll
 
-$(document).ready(function(){
+$(function navColorChange(){
     var duration = 500;
     var scroll_start = 0;
     var startchange = $('#startchange');
@@ -144,17 +156,11 @@ $(document).ready(function(){
     } 
   });
 
-//Submit Button Action
 
-$(function(){
-  $('#commentSubmit').on("click", function(){
-    alert('Thank you!');
-  });
-});
 
-//Input/Textarea of comment form effects
 
-$(function() {
+$(function commentForm() {
+  //Input/Textarea of comment form effects
     $("input:text, #comment").focus(function(){
         $(this).css({'background-color' : 'rgba(0,0,0,0.7)'});
     });
@@ -162,5 +168,22 @@ $(function() {
     $("input:text, #comment").blur(function(){
         $(this).css({'background-color' : 'rgba(128,128,128,0.7)'});
     });
+
+    //Submit button popup
+    $('#commentSubmit').on("click", function(){
+    alert('Thank you!');
+  });
 });
 
+$(function linkIconHover(){
+  $(".hov").on({
+      mouseenter: function () {
+          $('#linkIconGroup p').css("color", "white");
+          $('#linkIconGroup p').css("font-weight", "bold");
+      },
+      mouseleave: function () {
+          $('#linkIconGroup p').css("color", "black");
+          $('#linkIconGroup p').css("font-weight", "normal");
+      }
+  });
+});

@@ -27,7 +27,7 @@ $sql = "INSERT INTO form (name, email, comment)
 
 		if(mysqli_query($conn, $sql)){
 			echo 'Comment Successfull!';
-			header('Location: index.html');
+			header('Location: index.php');
 		}else{
 			echo "Error " . $sql . "<br>" . mysqli_error($conn);
 		}

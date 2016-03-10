@@ -59,17 +59,17 @@
   <!--/container-->
   <div class="content-space-one">
     <div class="container-fluid">
-      <div class="row text-center">
+      <div class="row text-center" id="linkIconGroup">
         <div class="col-md-4">
-            <a href="#"><i class="fa fa-github" id="linkIcon"></i></a>
+            <a href="#"><i class="fa fa-github hov" id="linkIcon"></i></a>
               <p>My Github</p>
         </div>
         <div class="col-md-4">
-          <a href="#"><i class="fa fa-file-text-o" id="linkIcon"></i></a>
+          <a href="#"><i class="fa fa-file-text-o hov" id="linkIcon"></i></a>
           <p>Online Resume</p>
         </div>
         <div class="col-md-4">
-          <a href="#"><i class="fa fa-linkedin" id="linkIcon"></i></a>
+          <a href="#"><i class="fa fa-linkedin hov" id="linkIcon"></i></a>
           <p>LinkedIn Profile</p>
         </div>
       </div>
