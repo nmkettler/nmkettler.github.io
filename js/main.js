@@ -116,10 +116,12 @@ $(document).ready(function(){
           scroll_start = $(this).scrollTop();
           if(scroll_start > offset.top) {
             $(".navbar-default").css('background-color', 'rgba(255,255,255,0.7)');
-            $(".navbar-default .navbar-nav li a").css('color', 'rgba(0,0,0,0.7)');          
+            $(".navbar-default .navbar-nav li a").css('color', 'rgba(0,0,0,0.7)');
+            $(".icon-bar").css('background-color', 'black');             
           } else {
             $('.navbar-default').css('background-color', 'transparent');
-            $(".navbar-default .navbar-nav li a").css('color', 'rgb(255,255,255)');          
+            $(".navbar-default .navbar-nav li a").css('color', 'rgb(255,255,255)');
+            $(".icon-bar").css('background-color', 'white');             
           }
         });
       }
