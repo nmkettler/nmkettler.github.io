@@ -2,22 +2,24 @@
   <div class="footer-above">
     <div class="container">
       <div class="row">
-        <div class="footer-col col-md-12" id="footNavText">
-          <p><a href="index.php">Home </a> |<a href="contact.php"> Contact Us</a>
-          </p>
-        </div>
         <div class="row">
           <div class="footer-col col-md-12" id="footSocMedia">
             <ul class="list-inline">
-              <a class="btn btn-social-icon btn-facebook" href="https://www.facebook.com/">
-                <i class="fa fa-facebook-square fa-2x"></i>
-              </a>
+              <a class="btn btn-social-icon btn-facebook" href="https://plus.google.com/104958944705626065015/posts">
+                 <i class="fa fa-github fa-2x"></i>
+                </a>
               <a class="btn btn-social-icon btn-facebook" href="masters.mymail@gmail.com">
                 <i class="fa fa-envelope fa-2x"></i>
               </a>
               <a class="btn btn-social-icon btn-facebook" href="https://plus.google.com/104958944705626065015/posts">
                  <i class="fa fa-google-plus-square fa-2x"></i>
                 </a>
+                <a class="btn btn-social-icon btn-facebook" href="https://plus.google.com/104958944705626065015/posts">
+                 <i class="fa fa-github fa-2x"></i>
+                </a>
+                <a class="btn btn-social-icon btn-facebook" href="https://www.facebook.com/">
+                <i class="fa fa-facebook-square fa-2x"></i>
+              </a>
             </ul>
           </div>
         </div>

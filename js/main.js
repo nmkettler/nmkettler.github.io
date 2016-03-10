@@ -19,6 +19,14 @@ $(window).scroll( function(){
 
 });
 
+$(function(){
+  $('#contact').click(function(){
+    $('html, body').animate({
+      scrollTop: $(".content-space-two").offset().top
+    }, 2000);
+  });
+});
+
 //Back to top scrolling
 
 $(function(){
@@ -142,6 +150,7 @@ $(function(){
   });
 });
 
+//Input/Textarea of comment form effects
 
 $(function() {
     $("input:text, #comment").focus(function(){

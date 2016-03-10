@@ -4,7 +4,7 @@
   <div id="startchange"></div>
   <div class="header alt vert img-responsive">
     <img src="css/photos/selfImage.jpg" id="selfImage" />
-    <h2>Welcome!</h2>
+    <h2>Hello!</h2>
     <p class="myDesc">My name is Noah Kettler and I am currently a Freelance Web Developer. Feel free to check out my site and the projects I have done!</p>
     <a class="arrow-wrap" href="#content">
       <span class="arrow"></span>
@@ -62,15 +62,15 @@
       <div class="row text-center">
         <div class="col-md-4">
             <a href="#"><i class="fa fa-github" id="linkIcon"></i></a>
-              <p>My Github Account</p>
+              <p>My Github</p>
         </div>
         <div class="col-md-4">
           <a href="#"><i class="fa fa-file-text-o" id="linkIcon"></i></a>
-          <p>View my resume</p>
+          <p>Online Resume</p>
         </div>
         <div class="col-md-4">
           <a href="#"><i class="fa fa-linkedin" id="linkIcon"></i></a>
-          <p>My LinkedIn Profile</p>
+          <p>LinkedIn Profile</p>
         </div>
       </div>
     </div>

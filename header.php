@@ -38,7 +38,7 @@
             <ul class="nav navbar-nav navbar-right">
               <li><a href="index.php">Home</a></li>
               <li>
-                <a href="fullpagesurvey.php">Contact Me </a>
+                <a href="#" id="contact">Contact Me </a>
               </li>
             </ul>
           </div>
