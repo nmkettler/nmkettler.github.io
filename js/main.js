@@ -187,3 +187,12 @@ $(function linkIconHover(){
       }
   });
 });
+
+  $(function(){
+        $(".typer").typed({
+            strings: ["PHP", "Javascript", "Jquery", "MySQL", "Java", "Photoshop", "JSON", "Ajax", "Learning"],
+            typeSpeed: 150
+        });
+
+        
+    });
