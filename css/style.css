@@ -189,7 +189,7 @@ background-color:white;
   article.introduction {
     position: absolute;
     color: #FFF;
-    left: 55%;
+    left: 47%;
     top:50%;
     font: arial helvetica;
     transform: translate(-50%, -50%);
@@ -207,6 +207,7 @@ h2 span{
   letter-spacing: -5px;
   line-height: 90px;
   border: 1px solid white;
+  border-bottom: none;
   margin: 0 0 5px;
   padding: 5px 0 0;
 }
@@ -214,21 +215,24 @@ h3 span{
   font-size: 35px;
   background-color: black;
   margin: 0 0 5px;
-  padding: 5px 0 0;
+  padding: 3px 0 0;
   border: 1px solid white;
+  border-bottom: none;
 }
 h4 span{
   font-size: 35px;
   background-color: black;
   border: 1px solid white;
+  border-bottom: none;
   margin: 0 0 5px;
-  padding: 5px 0 0;
+  padding: 3px 0 0;
 }
 h5 span{
   font-size: 20px;
   background-color: black;
   margin: 0 0 5px;
   padding: 5px 0 0;
+  border-bottom: none;
   border: 1px solid white;
 }
 h6 span{
@@ -254,38 +258,42 @@ h6 span{
   float: left;
   color: white;
 }
-hgroup{
-
+#selfImage{
+ padding-bottom: 1em;
 }
 h2 span{
   font-size: 50px;
   background-color: black;
   letter-spacing: -5px;
-  line-height: 20px;
+  line-height: 10px;
   border: 1px solid white;
+  border-bottom: none;
   margin: 0 0 5px;
   padding:0;
 }
 h3 span{
-  font-size: 27px;
+  font-size: 15px;
   background-color: black;
   margin: 0 0 5px;
-  padding: 2px 0 0;
+  padding: 1px 0 0;
   border: 1px solid white;
+  border-bottom: none;
 }
 h4 span{
-  font-size: 27px;
+  font-size: 15px;
   background-color: black;
   border: 1px solid white;
+  border-bottom: none;
   margin: 0 0 5px;
-  padding: 2px 0 0;
+  padding: 1px 0 0;
 }
 h5 span{
   font-size: 10px;
   background-color: black;
   margin: 0 0 5px;
-  padding: 2px 0 0;
+  padding: 1px 0 0;
   border: 1px solid white;
+  border-bottom: none;
 }
 h6 span{
   font-size: 10px;
@@ -320,7 +328,7 @@ h6 span{
 .arrow-wrap-one {
   position: absolute;
   z-index:1;
-  left:52%;
+  left:53%;
   bottom:0em;
   margin-left:-5em;
   background:#111;
@@ -398,13 +406,13 @@ h6 span{
 	}
 
 	#selfImage{
-	width:150px;
+	width:125px;
 }
 
 .arrow-wrap {
   position: absolute;
   z-index:1;
-  left:40%;
+  left:37%;
   bottom:0em;
   margin-left:-5em;
   background:#111;
@@ -613,9 +621,9 @@ h6 span{
 @media screen and (max-width: 768px){
   .gallery-item {
       position: relative;
-      width: 400px;
+      width: 380px;
       height: 333px;
-      right:5px;
+      right: 15px;
       display: block;
       overflow: hidden;
     }
@@ -627,7 +635,7 @@ h6 span{
     border-radius: 5px;
     background-color: gray;
     box-shadow:0px 0px 10px 0px #333;
-    width: 400px;
+    width: 340px;
   }
   .img-title {
       position: absolute;
@@ -640,9 +648,7 @@ h6 span{
       border-radius: 5px;
       -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
       filter: alpha(opacity=0);
-      margin: 0;
-      margin-top: 3em;
-      margin-bottom: 5em;
+      margin: 3em 1em 6.7em 1em;
       text-align: center;
       opacity: 0;
       background-color: #333;

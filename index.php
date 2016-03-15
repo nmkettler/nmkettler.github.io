@@ -25,7 +25,7 @@
   </div>
 
   <div class="container" id="content">
-    <h1 class="text-center" id="exp">My Experience</h1>
+    <h1 class="text-center" id="exp">My Experiments</h1>
     <div class="row projectImages">
       <div class="col-md-6">
         <figure class="gallery-item">
@@ -72,7 +72,7 @@
     <div class="container-fluid">
       <div class="row text-center" id="linkIconGroup">
         <div class="col-md-4">
-            <a href="#"><i class="fa fa-github hov" id="linkIcon"></i></a>
+            <a href="https://github.com/nmkettler"><i class="fa fa-github hov" id="linkIcon"></i></a>
               <p>My Github</p>
         </div>
         <div class="col-md-4">
@@ -80,14 +80,14 @@
           <p>Online Resume</p>
         </div>
         <div class="col-md-4">
-          <a href="#"><i class="fa fa-linkedin hov" id="linkIcon"></i></a>
+          <a href="https://www.linkedin.com/in/noahkettler"><i class="fa fa-linkedin hov" id="linkIcon"></i></a>
           <p>LinkedIn Profile</p>
         </div>
       </div>
     </div>
   </div>
 
-  <div class="content-space-two">
+  <div class="content-space-two" id="commentAffix">
     
       <form action="leaveComment.php" class="formcomment form-plat" method="post">
         <h2 class="formcomment-heading">Contact Me</h2>

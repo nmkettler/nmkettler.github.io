@@ -5,7 +5,7 @@
         <div class="row">
           <div class="footer-col col-md-12" id="footSocMedia">
             <ul class="list-inline">
-              <a class="btn btn-social-icon btn-facebook" href="https://plus.google.com/104958944705626065015/posts">
+              <a class="btn btn-social-icon btn-facebook" href="https://github.com/nmkettler">
                  <i class="fa fa-github fa-2x"></i>
                 </a>
               <a class="btn btn-social-icon btn-facebook" href="masters.mymail@gmail.com">
@@ -14,10 +14,10 @@
               <a class="btn btn-social-icon btn-facebook" href="https://plus.google.com/104958944705626065015/posts">
                  <i class="fa fa-google-plus-square fa-2x"></i>
                 </a>
-                <a class="btn btn-social-icon btn-facebook" href="https://plus.google.com/104958944705626065015/posts">
-                 <i class="fa fa-github fa-2x"></i>
+                <a class="btn btn-social-icon btn-facebook" href="https://www.linkedin.com/in/noahkettler">
+                 <i class="fa fa-linkedin fa-2x"></i>
                 </a>
-                <a class="btn btn-social-icon btn-facebook" href="https://www.facebook.com/">
+                <a class="btn btn-social-icon btn-facebook" href="https://www.facebook.com/noah.kettler">
                 <i class="fa fa-facebook-square fa-2x"></i>
               </a>
             </ul>

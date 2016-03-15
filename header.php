@@ -38,7 +38,7 @@
             <ul class="nav navbar-nav navbar-right">
               <li><a href="index.html">Home</a></li>
               <li>
-                <a href="#" id="contact">Contact Me </a>
+                <a href="#commentAffix" id="contact">Contact Me </a>
               </li>
             </ul>
           </div>
@@ -64,7 +64,7 @@
             <ul class="nav navbar-nav navbar-right">
               <li><a href="index.php">Home</a></li>
               <li>
-                <a href="#" id="contact">Contact Me </a>
+                <a href="#commentAffix" id="contact">Contact Me </a>
               </li>
             </ul>
           </div>
