@@ -15,11 +15,7 @@
       </hgroup>
     </article>
     <a class="arrow-wrap" href="#content">
-      <h6>Check out my stuff</h6>
-      <!--<span class="hint">scroll</span>-->
-    </a>
-    <a class="arrow-wrap-one" href="#content">
-      <span class="arrow"></span>
+      <h6 id="scroll-text">Check out my stuff <span class="arrow"></span></h6>
       <!--<span class="hint">scroll</span>-->
     </a>
   </div>
@@ -66,6 +62,26 @@
         </figure>
       </div>
     </div>
+    <div class="row projectImages">
+      <div class="col-md-6">
+        <figure class="gallery-item">
+          <img src="css/photos/accMenu.png">
+          <figcaption class="img-title">
+            <h5>Accordian Menu</h5>
+            <p>A custom built accordian menu that is mobile friendly. Ready to use on any website. Works in all major browsers. Jquery <a href="#" data-toggle="modal" data-target="#vertAcc">View</a></p>
+          </figcaption>
+        </figure>
+      </div>
+      <div class="col-md-6">
+        <figure class="gallery-item">
+          <img src="css/photos/fast-chat.png">
+          <figcaption class="img-title">
+            <h5>Fast Chat</h5>
+            <p>A chat web application built with PHP. All messages are stored in the MySQL database. PHP, MySQL, JQuery <a href="https://github.com/nmkettler/Fast-Chat-">View</a></p>
+          </figcaption>
+        </figure>
+      </div>
+    </div>
   </div>
   <!--/container-->
   <div class="content-space-one">
@@ -103,6 +119,65 @@
       </form>
   </div>
 
-
+<!-- Modal -->
+<div class="modal fade" id="vertAcc" tabindex="-1" role="dialog" aria-labelledby="accModal">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="accModal">Collapsing Accordian Menu</h4>
+      </div>
+      <div class="modal-body" id="accordianModalBody">
+        <div id="accordian">
+        <ul>
+          <li>
+            <h3><span class="icon-dashboard"></span>Dashboard</h3>
+            <ul>
+              <li><a href="#">Reports</a></li>
+              <li><a href="#">Search</a></li>
+              <li><a href="#">Graphs</a></li>
+              <li><a href="#">Settings</a></li>
+            </ul>
+          </li>
+          <!-- we will keep this LI open by default -->
+          <li class="active">
+            <h3><span class="icon-tasks"></span>Tasks</h3>
+            <ul>
+              <li><a href="#">Today's tasks</a></li>
+              <li><a href="#">Urgent</a></li>
+              <li><a href="#">Overdues</a></li>
+              <li><a href="#">Recurring</a></li>
+              <li><a href="#">Settings</a></li>
+            </ul>
+          </li>
+          <li>
+            <h3><span class="icon-calendar"></span>Calendar</h3>
+            <ul>
+              <li><a href="#">Current Month</a></li>
+              <li><a href="#">Current Week</a></li>
+              <li><a href="#">Previous Month</a></li>
+              <li><a href="#">Previous Week</a></li>
+              <li><a href="#">Next Month</a></li>
+              <li><a href="#">Next Week</a></li>
+              <li><a href="#">Team Calendar</a></li>
+              <li><a href="#">Private Calendar</a></li>
+              <li><a href="#">Settings</a></li>
+            </ul>
+          </li>
+          <li>
+            <h3><span class="icon-heart"></span>Favorites</h3>
+            <ul>
+              <li><a href="#">Global favs</a></li>
+              <li><a href="#">My favs</a></li>
+              <li><a href="#">Team favs</a></li>
+              <li><a href="#">Settings</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
 
   <?php include('footer.php') ?>
