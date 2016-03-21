@@ -258,6 +258,7 @@ h6 span{
   float: left;
   color: white;
 }
+/*My picture*/
 #selfImage{
  padding-bottom: 1em;
 }
@@ -597,6 +598,7 @@ h6 span{
 
 
 @media screen and (max-width: 768px){
+  /*Slide over*/
   .gallery-item {
       position: relative;
       width: 380px;
@@ -716,6 +718,7 @@ h6 span{
 }
 
 @media screen and (min-width: 768px){
+  /* Parralax effect*/
 	.content-block-one{
 		padding-top: 48px;
 		padding-bottom: 48px;
@@ -887,11 +890,6 @@ footer{
 
 /*---------------Accordian Menu Project------------- */
 
-/*custom font for text*/
-@import url(http://fonts.googleapis.com/css?family=Nunito);
-/*CSS file for fontawesome - an iconfont we will be using. This CSS file imported contains the font-face declaration. More info: http://fortawesome.github.io/Font-Awesome/ */
-@import url(http://thecodeplayer.com/uploads/fonts/fontawesome/css/font-awesome.min.css);
-
 #accordian {
   background: #004050;
   width: 250px;
@@ -945,7 +943,7 @@ footer{
   background: #003545;
   border-left: 5px solid lightgreen;
 }
-/*Lets hide the non active LIs by default*/
+/*Hide the non active LIs by default*/
 #accordian ul ul {
   display: none;
 }
@@ -957,3 +955,4 @@ footer{
   background-color: lightgray;
 }
 /*---------------/Accordian Menu Project------------- */
+

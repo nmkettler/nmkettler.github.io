@@ -184,6 +184,7 @@ $(function commentForm() {
   });
 });
 
+//Hover over bold effect of LI, Github, and Resume link
 $(function linkIconHover(){
   $(".hov").on({
       mouseenter: function () {
@@ -197,6 +198,7 @@ $(function linkIconHover(){
   });
 });
 
+//Acordian project
 $(function accordianMenu(){
   $("#accordian h3").click(function(){
     //slide up all the link lists

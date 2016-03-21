@@ -1,0 +1,157 @@
+
+/*Basic Reset*/
+
+*{
+	margin: 0;
+	padding:0;
+	box-sizing: border-box;
+}
+body{
+	background-color: lightgray;
+}
+
+
+/*Box shadows to make 3d type effect*/
+#calculator{
+	width: 325px;
+	height: auto;
+
+	margin:100px auto;
+	padding: 20px;
+
+	background: rgba(0,0,0,0.7);
+	border-radius: 3px;
+
+	box-shadow: 0px 4px #000000, 0px 10px 15px rgba(0,0,0,0.2);
+}
+
+.title, .title h6{	
+	margin: -20px 0 30px -10px;
+
+	background-color: #565656;
+	width:315px;
+	height: 20px;
+
+	color:#FFF0F5;
+	font-size: 20px;
+}
+
+/*Top Portion*/
+.top.clear{
+	float:left;
+}
+
+.top .screen{
+	height:40px;
+	width:212px;
+	background: rgba(0,0,0,0.2);
+
+	float:right;
+	border-radius: 3px;
+
+	padding:0 10px;
+
+	box-shadow: inset 0px 4px rgba(0,0,0,0.2);
+
+	/*Typography*/
+	font-size: 17ox;
+	line-height: 40px;
+	color:white;
+	text-shadow:1px 1px 2px rgba(0,0,0,0.2);
+	text-align: right;
+	letter-spacing: 1px;
+	font-family: 'Alegreya Sans', sans-serif;
+	font-size: 20px;
+}
+
+/*Clear Floats*/
+.keys,.top{
+	overflow: hidden;
+}
+
+.keys span,.top span.clear{
+	float:left;
+	position: relative;
+
+	cursor: pointer;
+
+	width:66px;
+	height:36px;
+
+	background:white;
+	border-radius: 3px;
+
+	margin:0 7px 11px 0;
+	line-height: 36px;
+	text-align: center;
+	box-shadow: 0px 4px rgba(0,0,0,0.2);
+
+	/*Prevent selection of text inside the keys */
+	user-select:none;
+
+	/*Smooth out transitions*/
+	transition: all 0.2s ease;
+}
+
+/*Remove right margins from operating keys */
+
+span.operator{
+	margin-right:0; 
+}
+
+/*Style keys differently (operators/eval/clear*/
+.keys span.operator{
+	background:#FFF0F5;
+	margin-right: 0;
+}
+.keys span.eval{
+	background:#f1ff92;
+	box-shadow: 0px 4px #9da853;
+	color:#888e5f;
+}
+
+.top span.clear{
+	background:#FF3030;
+	box-shadow: 0px 4px #ff7c87;
+	color:white;
+}
+
+/*Hover Effect*/
+
+.keys span:hover{
+	background:#8B3A3A;
+	box-shadow: 0px 4px #ff7c87;
+	color:white;
+
+}
+.keys span.eval:hover{
+	background:#abb850;
+	box-shadow: 0px 4px #717a3;
+	color:#888e5f;
+}
+
+.top span.clear:hover{
+	background:#660000;
+	box-shadow: 0px 4px #d3545d;
+	color:white;
+}
+
+/*Simulate the button pressed effect by removing shadow and moving entire key down*/
+
+.keys span:active{
+
+	box-shadow: 0px 0px #6b54d3;
+	top:4px;
+
+}
+.keys span.eval:active{
+	background:#abb850;
+	box-shadow: 0px 0px #717a3;
+	top:4px;
+}
+
+.top span.clear:active{
+
+	box-shadow: 0px 0px #d3545d;
+	top:4px;
+}

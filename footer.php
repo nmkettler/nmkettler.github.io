@@ -8,7 +8,7 @@
               <a class="btn btn-social-icon btn-facebook" href="https://github.com/nmkettler">
                  <i class="fa fa-github fa-2x"></i>
                 </a>
-              <a class="btn btn-social-icon btn-facebook" href="masters.mymail@gmail.com">
+              <a class="btn btn-social-icon btn-facebook" href="nmkettler@gmail.com">
                 <i class="fa fa-envelope fa-2x"></i>
               </a>
               <a class="btn btn-social-icon btn-facebook" href="https://plus.google.com/104958944705626065015/posts">
