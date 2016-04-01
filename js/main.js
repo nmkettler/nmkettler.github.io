@@ -1,3 +1,7 @@
+$(document).ready(function(){
+
+
+
 $(window).scroll( function(){
 
   //get scroll position
@@ -119,10 +123,21 @@ $(function typer(){
   $(".typer").typed({
     strings: ["PHP", "Javascript", "Jquery", "MySQL", "Java", "Photoshop", "JSON", "Ajax", "Learning"],
     typeSpeed: 150
-  });
-
-        
+  }); 
     });
+
+//Rotate self image
+(function rotateImage() {
+    var imgs = document.getElementById('imageRotator').getElementsByTagName('img'),
+        index = 0;
+    imgs[0].style.display = 'block';
+    setInterval(function () {
+        imgs[index].style.display = 'none';
+        index = (index + 1) % imgs.length;
+        imgs[index].style.display = 'block';
+    }, 1000);
+}());
+       
 
 //Change Nav color on scroll
 
@@ -209,4 +224,8 @@ $(function accordianMenu(){
       $(this).next().slideDown();
     }
   });
+});
+
+
+
 });

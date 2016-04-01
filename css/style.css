@@ -1105,3 +1105,17 @@ span.operator{
   box-shadow: 0px 0px #d3545d;
   top:4px;
 }
+#imageRotator img {
+        display: none;
+       
+    }
+
+    .introduction img{
+       -webkit-transition: all 300ms ease-out;
+      -moz-transition: all 300ms ease-out;
+      -o-transition: all 300ms ease-out;
+      -ms-transition: all 300ms ease-out;
+      transition: all 300ms ease-out;
+    }
+
+    

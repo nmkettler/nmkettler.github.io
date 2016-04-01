@@ -2,9 +2,14 @@
 
 
   <div id="startchange"></div>
-  <div class="header alt vert img-responsive">
+  <div class="header alt vert img-responsive" id="imageRotator">
     <article class="introduction">
-      <img src="css/photos/selfImage.jpg" id="selfImage" />
+
+        <img src="css/photos/selfImage.jpg" id="selfImage" />
+        <img src="css/photos/selfImage2.png" id="selfImage" />
+        <img src="css/photos/selfImage3.png" id="selfImage" />
+        <img src="css/photos/selfImage4.png" id="selfImage" />
+    
       <hgroup>
         <h2><span>Hello</span></h2>
         <h3><span>How's it going? My name is Noah</span></h3>
@@ -24,7 +29,7 @@
     <h1 class="text-center" id="exp">My Experiments</h1>
     <div class="row projectImages">
       <div class="col-md-6">
-        <figure class="gallery-item">
+        <figure class="gallery-item" id="item1">
           <img src="css/photos/Prep-Car-Image.png">
           <figcaption class="img-title">
             <h5>Prep-Car Web App</h5>
@@ -33,7 +38,7 @@
         </figure>
       </div>
       <div class="col-md-6">
-        <figure class="gallery-item">
+        <figure class="gallery-item" id="item2">
           <img src="css/photos/Salmon-Bay-Image.png">
           <figcaption class="img-title">
             <h5>Salmon Bay Marina</h5>
@@ -44,7 +49,7 @@
     </div>
     <div class="row projectImages">
       <div class="col-md-6">
-        <figure class="gallery-item">
+        <figure class="gallery-item" id="item3">
           <img src="css/photos/FSX-Image.png">
           <figcaption class="img-title">
             <h5>FSX</h5>
@@ -53,7 +58,7 @@
         </figure>
       </div>
       <div class="col-md-6">
-        <figure class="gallery-item">
+        <figure class="gallery-item" id="item4">
           <img src="css/photos/Dealer-Locator-Image.png">
           <figcaption class="img-title">
             <h5>GM Dealer Locator</h5>
@@ -64,7 +69,7 @@
     </div>
     <div class="row projectImages">
       <div class="col-md-6">
-        <figure class="gallery-item">
+        <figure class="gallery-item" id="item5">
           <img src="css/photos/accMenu.png">
           <figcaption class="img-title">
             <h5>Accordian Menu</h5>
@@ -73,7 +78,7 @@
         </figure>
       </div>
       <div class="col-md-6">
-        <figure class="gallery-item">
+        <figure class="gallery-item"id="item6">
           <img src="css/photos/fast-chat.png">
           <figcaption class="img-title">
             <h5>Fast Chat</h5>
@@ -84,7 +89,7 @@
     </div>
     <div class="row projectImages">
       <div class="col-md-6">
-        <figure class="gallery-item">
+        <figure class="gallery-item" id="item7">
           <img src="css/photos/calcImage.png">
           <figcaption class="img-title">
             <h5>Specials Calculator</h5>
@@ -93,11 +98,11 @@
         </figure>
       </div>
       <div class="col-md-6">
-        <figure class="gallery-item">
+        <figure class="gallery-item" id="item8">
           <img src="css/photos/comingSoon.png">
           <figcaption class="img-title">
-            <h5>Coming Soon!</h5>
-            <p>Stay tuned for some of my upcoming projects!</p>
+            <h5>Lightbulb Cost Conversion</h5>
+            <p>Ever curious how much your lightbulb burns your bank account every year? Check out this Web App. Javascript, AngularJS<a href="#">View</a></p>
           </figcaption>
         </figure>
       </div>
@@ -367,5 +372,5 @@
       </div>
     </div>
   </div>
-
+     
   <?php include('footer.php') ?>
