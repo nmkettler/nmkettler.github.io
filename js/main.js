@@ -92,7 +92,7 @@ $(function hamMenuAnimation(){
  
 $(function projectHoverAnimation(){
 	if ($(window).width() > 768) {
-    $('.gallery-item').hover(function(){
+    $(".gallery-item").hover(function(){
 	            $(this).find('h5, p').stop().animate({
 	                opacity: '1',              
 	                marginLeft: '375px',
@@ -104,7 +104,7 @@ $(function projectHoverAnimation(){
 	            }, 100);
 	        });
     }else if ($(window).width() < 768) {
-       $('.gallery-item').hover(function(){
+       $(".gallery-item").hover(function(){
               $(this).find('h5, p').stop().animate({
                   opacity: '1',              
                   marginLeft: '320px',
@@ -117,6 +117,7 @@ $(function projectHoverAnimation(){
           });
     }
 });
+
 
 //What I Love typwriter
 $(function typer(){
@@ -224,8 +225,23 @@ $(function accordianMenu(){
       $(this).next().slideDown();
     }
   });
+
+});
+
+$(function showBox() {
+  $("#viewPop").on("click", function(){
+    $( "#dialog-message" ).dialog({
+      modal: true,
+      buttons: {
+        Ok: function() {
+          $( this ).dialog( "close" );
+        }
+      }
+    });
+  });
+  });
+
 });
 
 
 
-});

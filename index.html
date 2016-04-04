@@ -13,6 +13,7 @@
     <link href='https://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+    
     <link href="css/style.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
@@ -75,8 +76,7 @@
     </div>
     <!-- /.visible-xs-->
 
-
-  <div id="startchange"></div>
+    <div id="startchange"></div>
   <div class="header alt vert img-responsive" id="imageRotator">
     <article class="introduction">
 
@@ -87,10 +87,11 @@
     
       <hgroup>
         <h2><span>Hello</span></h2>
-        <h3><span>How's it going? My name is Noah</span></h3>
+        <h3><span>How's it going?</span></h3>
+        <h4><span>My name is Noah</span></h4>
         <h4><span>I'm a Web Developer</span></h4>
         <h5><span>I work at <a href="http://google.com/" target="_blank">CDK Global</a> (SEA)</span></h5>
-        <h6><span>I'm from Seattle, WA</span></h6>
+        <h5><span>I'm from Seattle, WA</span></h5>
         <h6><span>I love </span><span class="typer"></span></h6>
       </hgroup>
     </article>
@@ -104,11 +105,11 @@
     <h1 class="text-center" id="exp">My Experiments</h1>
     <div class="row projectImages">
       <div class="col-md-6">
-        <figure class="gallery-item" id="item1">
-          <img src="css/photos/Prep-Car-Image.png">
+        <figure class="gallery-item" id="item5">
+          <img src="css/photos/accMenu.png">
           <figcaption class="img-title">
-            <h5>Prep-Car Web App</h5>
-            <p>Prep-Car is a Web App I built for a startup I am currently apart of. PHP, Jquery, JSON, MySQL <a href="https://safe-atoll-65361.herokuapp.com/index.php#">View</a></p>
+            <h5>Customer Sites</h5>
+            <p>These are some sites I built for various customers. <a href="#" data-toggle="modal" data-target="#siteMod" id="viewPop">View</a></p>
           </figcaption>
         </figure>
       </div>
@@ -148,7 +149,7 @@
           <img src="css/photos/accMenu.png">
           <figcaption class="img-title">
             <h5>Accordian Menu</h5>
-            <p>A custom built accordian menu that is mobile friendly. Ready to use on any website. Works in all major browsers. Jquery <a href="#" data-toggle="modal" data-target="#vertAcc">View</a></p>
+            <p>A custom built accordian menu that is mobile friendly. Ready to use on any website. Works in all major browsers. Jquery <a href="#" data-toggle="modal" data-target="#vertAcc" id="viewPop">View</a></p>
           </figcaption>
         </figure>
       </div>
@@ -174,10 +175,10 @@
       </div>
       <div class="col-md-6">
         <figure class="gallery-item" id="item8">
-          <img src="css/photos/comingSoon.png">
+          <img src="css/photos/Bulb-Calc-Img.png">
           <figcaption class="img-title">
             <h5>Lightbulb Cost Conversion</h5>
-            <p>Ever curious how much your lightbulb burns your bank account every year? Check out this Web App. Javascript, AngularJS<a href="#">View</a></p>
+            <p>Ever curious how much your lightbulb burns your bank account every year? Check out this Web App. Javascript, AngularJS<a href="Bulb-Calculator.php"> View</a></p>
           </figcaption>
         </figure>
       </div>
@@ -219,7 +220,7 @@
     </form>
   </div>
 
-  <!-- Menu Modal -->
+ <!-- Menu Modal -->
   <div class="modal fade" id="vertAcc" tabindex="-1" role="dialog" aria-labelledby="accModal">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
@@ -279,6 +280,25 @@
       </div>
     </div>
   </div>
+ 
+ <!--Customer Websites Modal-->
+  <div class="modal fade" id="siteMod" tabindex="-1" role="dialog" aria-labelledby="accModal">
+        <div class="modal-dialog" role="document">    
+            <div class="modal-body">
+              <div class="scroll-pane ui-widget ui-widget-header ui-corner-all">
+                <div class="scroll-content example-site-link">
+                  <div class="scroll-content-item ui-widget-header"><a href="https://safe-atoll-65361.herokuapp.com/index.php"><img src="css/photos/Prep-Car-Image.png"></a></div>
+                  <div class="scroll-content-item ui-widget-header"><a href="https://github.com/nmkettler/Dealership-Locator"><img src="css/photos/Dealer-Locator-Image.png"></a></div>
+                  <div class="scroll-content-item ui-widget-header"><a href="https://serene-fjord-8357.herokuapp.com/index.php"><img src="css/photos/Salmon-Bay-Image.png"></a></div>
+                  <div class="scroll-content-item ui-widget-header"><a href="https://frozen-stream-9514.herokuapp.com/"><img src="css/photos/FSX-Image.png"></a></div>
+                </div>
+                <div class="scroll-bar-wrap ui-widget-content ui-corner-bottom">
+                  <div class="scroll-bar"></div>
+                </div>
+              </div>
+            </div>    
+        </div>
+      </div>
 
   <!--Calculator Modal-->
 
@@ -447,8 +467,8 @@
       </div>
     </div>
   </div>
-     
-<footer class="text-center fixed-bottom">
+
+  <footer class="text-center fixed-bottom">
   <div class="footer-above">
     <div class="container">
       <div class="row">
