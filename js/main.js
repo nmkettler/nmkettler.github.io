@@ -158,7 +158,7 @@ $(function navColorChange(){
           } else {
             $('.navbar-default').css('background-color', 'transparent');
             $(".navbar-default .navbar-nav li a").css('color', 'rgb(255,255,255)');
-            $(".icon-bar").css('background-color', 'white');             
+            $(".icon-bar").css('background-color', '#2F4F4F');             
           }
         });
       }
@@ -174,7 +174,7 @@ $(function navColorChange(){
           } else {
             $('.navbar-default').css('background-color', 'transparent');
             $(".navbar-default .navbar-nav li a").css('color', 'rgb(255,255,255)');  
-            $(".icon-bar").css('background-color', 'white');                            
+            $(".icon-bar").css('background-color', '#2F4F4F');                            
           }
         });
       }
@@ -204,12 +204,16 @@ $(function commentForm() {
 $(function linkIconHover(){
   $(".hov").on({
       mouseenter: function () {
-          $('#linkIconGroup p').css("color", "white");
-          $('#linkIconGroup p').css("font-weight", "bold");
+          $('#linkIconGroup p').css({
+             'color' : 'white',
+             'font-weight' : 'bold'
+          });
       },
       mouseleave: function () {
-          $('#linkIconGroup p').css("color", "black");
-          $('#linkIconGroup p').css("font-weight", "normal");
+          $('#linkIconGroup p').css({
+             'color' : 'black',
+             'font-weight' : 'normal'
+          });
       }
   });
 });

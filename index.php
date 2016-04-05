@@ -10,7 +10,7 @@
         <img src="css/photos/selfImage3.png" id="selfImage" />
         <img src="css/photos/selfImage4.png" id="selfImage" />
     
-      <hgroup>
+      <hgroup class="aboutMeHomePage">
         <h2><span>Hello</span></h2>
         <h3><span>How's it going?</span></h3>
         <h4><span>My name is Noah</span></h4>
@@ -26,50 +26,57 @@
     </a>
   </div>
 
+<div class="container-fluid containerFlWrap"> <!--Allows background image to stretch full-->
   <div class="container" id="content">
     <h1 class="text-center" id="exp">My Experiments</h1>
     <div class="row projectImages">
-      <div class="col-md-6">
-        <figure class="gallery-item" id="item5">
-          <img src="css/photos/accMenu.png">
-          <figcaption class="img-title">
-            <h5>Customer Sites</h5>
-            <p>These are some sites I built for various customers. <a href="#" data-toggle="modal" data-target="#siteMod" id="viewPop">View</a></p>
-          </figcaption>
-        </figure>
-      </div>
-      <div class="col-md-6">
-        <figure class="gallery-item" id="item2">
-          <img src="css/photos/Salmon-Bay-Image.png">
-          <figcaption class="img-title">
-            <h5>Salmon Bay Marina</h5>
-            <p>This is a site that I built for my marina. I love to sail btw. PHP, Jquery, JSON, MySQL <a href="https://serene-fjord-8357.herokuapp.com/index.php">View</a></p>
-          </figcaption>
-        </figure>
-      </div>
+      <div class="scroll-pane ui-widget ui-widget-header ui-corner-all" id="ex3">
+                <div class="scroll-content example-site-link">
+                  <div class="scroll-content-item ui-widget-header">
+                    <figure class="gallery-item">
+                      <img src="css/photos/Prep-Car-Image.png">
+                      <figcaption class="img-title img-title-1">
+                        <h5>Prep-Car</h5>
+                        <p>Prep-Car is a Web App I built for a startup I am currently apart of. PHP, Jquery, JSON, MySQL <a href="https://safe-atoll-65361.herokuapp.com/index.php">View</a></p>
+                      </figcaption>
+                  </figure>
+                </div>
+                  <div class="scroll-content-item ui-widget-header">
+                    <figure class="gallery-item" id="item4">
+                    <img src="css/photos/Dealer-Locator-Image.png">
+                    <figcaption class="img-title img-title-1">
+                      <h5>GM Dealer Locator</h5>
+                      <p>Created this web app to help out my team at CDK organize their dealers. PHP, Jquery, JSON, MySQL <a href="https://github.com/nmkettler/Dealership-Locator">View</a></p>
+                    </figcaption>
+                  </figure>
+                  </div>
+                  <div class="scroll-content-item ui-widget-header">
+                    <figure class="gallery-item">
+                      <img src="css/photos/Salmon-Bay-Image.png">
+                      <figcaption class="img-title img-title-1">
+                        <h5>Salmon Bay Marina</h5>
+                        <p>This is a site that I built for my marina. I love to sail btw. PHP, Jquery, JSON, MySQL <a href="https://serene-fjord-8357.herokuapp.com/index.php">View</a></p>
+                      </figcaption>
+                    </figure>
+                  </div>
+                  <div class="scroll-content-item ui-widget-header">
+                    <figure class="gallery-item" id="item3">
+                      <img src="css/photos/FSX-Image.png">
+                      <figcaption class="img-title img-title-1">
+                        <h5>FSX</h5>
+                        <p>One of my first sites. Long story short, this company builds/refurbishes DPF Filters. PHP, Jquery, JSON, MySQL <a href="https://frozen-stream-9514.herokuapp.com/">View</a></p>
+                      </figcaption>
+                    </figure>
+                  </div>
+                </div>
+                <div class="scroll-bar-wrap ui-widget-content ui-corner-bottom">
+                  <div class="scroll-bar"></div>
+                </div>
+              </div>
     </div>
+
     <div class="row projectImages">
-      <div class="col-md-6">
-        <figure class="gallery-item" id="item3">
-          <img src="css/photos/FSX-Image.png">
-          <figcaption class="img-title">
-            <h5>FSX</h5>
-            <p>This is a site I built for one of my old employees. Long story short, this company builds/refurbishes DPF Filters. PHP, Jquery, JSON, MySQL <a href="https://frozen-stream-9514.herokuapp.com/">View</a></p>
-          </figcaption>
-        </figure>
-      </div>
-      <div class="col-md-6">
-        <figure class="gallery-item" id="item4">
-          <img src="css/photos/Dealer-Locator-Image.png">
-          <figcaption class="img-title">
-            <h5>GM Dealer Locator</h5>
-            <p>I was having a hard time remembering where all of my accounts were so I whipped this together to easily access all of my accounts. PHP, Jquery, JSON, MySQL <a href="https://github.com/nmkettler/Dealership-Locator">View</a></p>
-          </figcaption>
-        </figure>
-      </div>
-    </div>
-    <div class="row projectImages">
-      <div class="col-md-6">
+      <div class="col-md-6 col-lg-6">
         <figure class="gallery-item" id="item5">
           <img src="css/photos/accMenu.png">
           <figcaption class="img-title">
@@ -103,12 +110,13 @@
           <img src="css/photos/Bulb-Calc-Img.png">
           <figcaption class="img-title">
             <h5>Lightbulb Cost Conversion</h5>
-            <p>Ever curious how much your lightbulb burns your bank account every year? Check out this Web App. Javascript, AngularJS<a href="Bulb-Calculator.php"> View</a></p>
+            <p>Ever curious how much your lightbulb burns your bank account every year? Check out this Web App. Javascript, AngularJS<a href="Bulb-Calculator.html"> View</a></p>
           </figcaption>
         </figure>
       </div>
     </div>
   </div>
+</div>
   <!--/container-->
   <div class="content-space-one">
     <div class="container-fluid">
