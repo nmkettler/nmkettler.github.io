@@ -1,9 +1,8 @@
 <?php include('header.php') ?>
 
 
-  <div id="startchange"><img src="css/photos/firbackgroundimg1.png" class="img-responsive" id ="homeImg" alt="Responsive image"></div>
+  <div id="startchange"></div>
   <div class="header alt vert img-responsive" id="imageRotator">
-    
     <article class="introduction">
 
         <img src="css/photos/selfImage.jpg" id="selfImage" />
