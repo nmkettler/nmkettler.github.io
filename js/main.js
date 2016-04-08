@@ -137,6 +137,7 @@ $(function typer(){
         index = (index + 1) % imgs.length;
         imgs[index].style.display = 'block';
     }, 1000);
+    
 }());
        
 

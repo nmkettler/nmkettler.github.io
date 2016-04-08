@@ -132,7 +132,7 @@ body {
   margin-top: 20px;
 }
 .navbar-default .navbar-toggle .icon-bar {
-background-color:white;
+background-color:#2F4F4F;
 }
 
   /*Click Animation*/
@@ -170,10 +170,10 @@ background-color:white;
 /*------------------------------/navbar-----------------------------*/
 
 /*------------------------------Homepage-------------------*/
-.header{
+#homeImg{
   height: 100%;
   width:100%;
-  background: url('../css/photos/firbackgroundimg1.png') no-repeat center center fixed;
+  background:  no-repeat center center fixed;
   -webkit-background-size: 100%; 
     -moz-background-size: 100%; 
     -o-background-size: 100%; 
@@ -193,6 +193,7 @@ background-color:white;
     top:50%;
     font: arial helvetica;
     transform: translate(-50%, -50%);
+
 }
 .header img, hgroup{
   display: block;
@@ -1169,16 +1170,13 @@ span.operator{
 }
 #imageRotator img {
         display: none;
-       
-    }
-
-    .introduction img{
-       -webkit-transition: all 300ms ease-out;
+           -webkit-transition: all 300ms ease-out;
       -moz-transition: all 300ms ease-out;
       -o-transition: all 300ms ease-out;
       -ms-transition: all 300ms ease-out;
       transition: all 300ms ease-out;
     }
+
 @media screen and (min-width: 768px){
   .scroll-pane { overflow: hidden; width: 99%; float:left; background-color: none;}
   .scroll-pane:hover{overflow: auto;}
@@ -1189,6 +1187,7 @@ span.operator{
   .scroll-bar-wrap .ui-handle-helper-parent { position: relative; width: 100%; height: 100%; margin: 0 auto; }
   .scroll-bar-wrap .ui-slider-handle { top:.2em; height: 1.5em; }
   .scroll-bar-wrap .ui-slider-handle .ui-icon { margin: -8px auto 0; position: relative; top: 50%; }
+
 
   .example-site-link img:hover{
     opacity: 0.5;
@@ -1227,8 +1226,7 @@ border-radius:10px;
 }
 @media screen and (max-width: 768px){
 
-.scroll-pane { overflow: hidden;  width: 99%; float:left; background-color: none;}
-.scroll-pane:hover { overflow: auto; }
+.scroll-pane { overflow: auto;  width: 99%; float:left; background-color: none;}
   .scroll-content { width: 1600px;  float: left; margin:0 0 20px 10px;}
   .scroll-content-item { width: 400px; margin-bottom: -100px; float: left; font-size: 1em; text-align: center; }
   .scroll-bar-wrap { clear: left; padding: 0 4px 0 2px; margin: 0 -1px -1px -1px; }
