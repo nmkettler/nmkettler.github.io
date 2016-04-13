@@ -182,7 +182,7 @@ background-color:#2F4F4F;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-attachment: scroll; /*attempt to make image not blurred on iOS*/
+  background-attachment: scroll; /*make image not blurred on iOS*/
 }
 
 @media(min-width: 979px){
@@ -474,9 +474,23 @@ h6 span{
     max-width: 7em;
 
   }
+  .containerFlWrap{
+  background: url('../css/photos/SecTwoBackground.png') no-repeat center center fixed;
+  -webkit-background-size: 100%; 
+    -moz-background-size: 100%; 
+    -o-background-size: 100%; 
+    background-size: 100%; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-bottom: 10em;
+  background-attachment: scroll; /*make image not blurred on iOS*/
+}
 }
 /*------------------------------Experience Page-------------------*/
 /*Wraps around .container for full-width background*/
+
 
 .containerFlWrap{
   background: url('../css/photos/SecTwoBackground.png') no-repeat center center fixed;
@@ -779,7 +793,48 @@ h6 span{
   font-weight: 200;
 
 }
+@media screen and (max-width: 768px){
+  .content-space-one{
+  padding:0px;
+  margin-bottom: 0px;
+  color: inherit;
+  background: url('..//css/photos/sunrise.png') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-attachment: scroll;
+}
 
+.content-space-two{
+  padding:0px;
+  margin-bottom: 0px;
+  color: inherit;
+  background: url('..//css/photos/sec2Background.png') no-repeat center center fixed;  
+  -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-attachment: scroll;
+    
+}
+/* Parralax effect*/
+  .content-block-one{
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+  .content-block-one{
+    padding-right: 60px;
+    padding-left: 60px;
+  }
+  .content-block-one h1{
+    font-size: 63px;
+  }
+}
 @media screen and (min-width: 768px){
   /* Parralax effect*/
   .content-block-one{
@@ -1227,8 +1282,8 @@ border-radius:10px;
 }
 @media screen and (max-width: 768px){
 
-.scroll-pane { overflow: auto;  width: 99%; float:left; background-color: none;}
-  .scroll-content { width: 1600px;  float: left; margin:0 0 20px 10px;}
+.scroll-pane {width: 99%; float:left; background-color: none; overflow-y: scroll; -webkit-overflow-scrolling: touch;}
+  .scroll-content { width: 1600px;  float: left; margin:0 0 20px 10px; }
   .scroll-content-item { width: 400px; margin-bottom: -100px; float: left; font-size: 1em; text-align: center; }
   .scroll-bar-wrap { clear: left; padding: 0 4px 0 2px; margin: 0 -1px -1px -1px; }
   .scroll-bar-wrap .ui-slider { background: none; border:0; height: 2em; margin: 0 auto;  }
