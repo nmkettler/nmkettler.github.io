@@ -126,7 +126,7 @@
           <p>My Github</p>
         </div>
         <div class="col-md-4">
-          <a href="#"><i class="fa fa-file-text-o hov" id="linkIcon"></i></a>
+          <a href="css/photos/NoahKettlerDev-Resume.pdf"><i class="fa fa-file-text-o hov" id="linkIcon"></i></a>
           <p>Online Resume</p>
         </div>
         <div class="col-md-4">
