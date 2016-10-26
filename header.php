@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
+    <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Ic_directions_ferry_48px.svg/48px-Ic_directions_ferry_48px.svg.png" />
+    
 
     <title>Projects</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.css">

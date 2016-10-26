@@ -33,11 +33,20 @@
       <div class="scroll-pane ui-widget ui-widget-header ui-corner-all" id="ex3">
                 <div class="scroll-content example-site-link">
                   <div class="scroll-content-item ui-widget-header">
+                    <figure class="gallery-item" id="item3">
+                      <img src="css/photos/watpic.jpg">
+                      <figcaption class="img-title img-title-1">
+                        <h5>WAT</h5>
+                        <p>Re-built an Asbestos Testing Company’s responsive website. Awesome company! AngularJS, Firebase <a href="https://washington-asbestos-llc.firebaseapp.com/#/home">View</a></p>
+                      </figcaption>
+                    </figure>
+                  </div>
+                  <div class="scroll-content-item ui-widget-header">
                     <figure class="gallery-item">
                       <img src="css/photos/Prep-Car-Image.png">
                       <figcaption class="img-title img-title-1">
                         <h5>Prep-Car</h5>
-                        <p>Prep-Car is a Web App I built for a startup I am currently apart of. PHP, Jquery, JSON, MySQL <a href="https://safe-atoll-65361.herokuapp.com/index.php">View</a></p>
+                        <p>Prep-Car is a Web App I built for a startup I am currently apart of. AngularJS, Firebase, Jquery <a href="https://prepcar-199b7.firebaseapp.com/#/home">View</a></p>
                       </figcaption>
                   </figure>
                 </div>
@@ -56,15 +65,6 @@
                       <figcaption class="img-title img-title-1">
                         <h5>Salmon Bay Marina</h5>
                         <p>This is a site that I built for my marina. I love to sail btw. PHP, Jquery, JSON, MySQL <a href="https://serene-fjord-8357.herokuapp.com/index.php">View</a></p>
-                      </figcaption>
-                    </figure>
-                  </div>
-                  <div class="scroll-content-item ui-widget-header">
-                    <figure class="gallery-item" id="item3">
-                      <img src="css/photos/FSX-Image.png">
-                      <figcaption class="img-title img-title-1">
-                        <h5>FSX</h5>
-                        <p>One of my first sites. Long story short, this company builds/refurbishes DPF Filters. PHP, Jquery, JSON, MySQL <a href="https://frozen-stream-9514.herokuapp.com/">View</a></p>
                       </figcaption>
                     </figure>
                   </div>
